@@ -1,0 +1,66 @@
+.product-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border-bottom: 2px solid red;
+    // border-top: 2px solid red;
+    height: 30%;
+
+    .product-info-card{
+        width: 45%;
+        height: 95%;
+        border: 2px solid gray;
+        border-radius: 25px;
+        overflow: hidden;
+
+
+        .product-name{
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5vw;
+            
+        }
+        
+        // Nutrition Container
+        .nutrition-info{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            // border-top: 2px solid grey;
+
+         
+
+            .protein {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 1.45vw;
+                justify-content: center;
+
+               
+            }
+          
+
+
+          .facts{
+              width: 20%;
+              display: flex;
+              flex-direction: column;
+              border-right: 2px solid grey;
+              align-items: center;
+              justify-content: center;
+              font-size: 1.43vw;
+            
+          }
+
+          p {
+            text-decoration: underline;
+        }
+
+        }
+    }
+}

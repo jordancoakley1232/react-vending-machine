@@ -1,0 +1,51 @@
+.product-list {
+    width: 85vw;
+    // height: 100vh;
+    height: 100vw;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  
+
+    .refill-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 25px;
+        height: 300px;
+        // Image settings
+        // background-color: white;
+        
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: contain; /* Resize the background image to cover the entire container */
+
+        .info-buttons{
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .drink-stock {
+                height: 100%;
+                width: 2.5rem;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+
+        .product-name-container{
+         
+            background-color: grey;
+            height: 15%;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            font-weight: bold;
+
+        }
+
+    }
+}
